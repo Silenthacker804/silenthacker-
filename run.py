@@ -156,7 +156,7 @@ class Crack:
 				'sec-ch-ua-mobile'	:	'?1',
 				'sec-ch-ua-platform'	:	'"Android"',
 				'Upgrade-Insecure-Requests'	:	'1',
-				'User-Agent'	:	'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
+				'User-Agent'	:	'Mozilla/5.0 (Linux; Android 12; SM-S906N Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.119 Mobile Safari/537.36,
 				'Accept'	:	'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
 				'Sec-Fetch-Site'	:	'same-origin',
 				'Sec-Fetch-Mode'	:	'navigate',
