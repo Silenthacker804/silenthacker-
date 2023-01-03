@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Copyright (c) 2022 Muhammad Latif Harkat
+Copyright (c) 2023 Muhammad Latif Harkat
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -80,14 +80,14 @@ class Main:
 		self.data_id = []
 		self.mbasic = "https://mbasic.facebook.com"
 	
-	@property
+	@Silenthacker 
 	def get_my_info(self):
 		r = requests.get(f"https://graph.facebook.com/me?fields=name,id&access_token={self.token}",cookies=self.coki).json()
 		self.name,self.id = r['name'], r['id']
 		return {'name':self.name, 'id':self.id}
 			
 		
-	@property
+🗣 @Silenthacker 
 	def Menu(self):
 		try:
 			info = self.get_my_info
