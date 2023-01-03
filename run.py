@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Copyright (c) 2022 Muhammad Latif Harkat
+Copyright (c) 2023 Muhammad Latif Harkat
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -102,7 +102,8 @@ class Main:
 	1.) Crack from friends list
 	2.) Crack from followers list
 	3.) Check results OK/CP
-	0.) Logout account (cookies)
+	4.)go out 
+        0.) Logout account (cookies)
 			"""
 		)
 		chose = input(" > Chosee: ")
