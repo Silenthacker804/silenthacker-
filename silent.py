@@ -77,13 +77,13 @@ def clear():
     print(logo)
 
 logo = """
-\t\x1b[1;92m╔══╗╔╗──────────╔╗─  ╔╗────────╔╗───────  
-\t\x1b[1;97m║══╣╠╣╔╗─╔═╗╔═╦╗║╚╗  ║╚╗╔═╗─╔═╗║╠╗╔═╗╔╦╗  
-\t\x1b[1;92m╠══║║║║╚╗║╩╣║║║║║╔╣  ║║║║╬╚╗║═╣║═╣║╩╣║╔╝  
-\t\x1b[1;97m╚══╝╚╝╚═╝╚═╝╚╩═╝╚═╝  ╚╩╝╚══╝╚═╝╚╩╝╚═╝╚╝─  
-\t\x1b[1;92m ───────────────────  ───────────────────
-\t\x1b[1;97m ##########
-\t\x1b[1;92m Silenthacker 
+\t\x1b[1;92m##     ##    ###    ########  ##    ## 
+\t\x1b[1;97m###   ###   ## ##   ##     ## ##   ##  
+\t\x1b[1;92m#### ####  ##   ##  ##     ## ##  ##   
+\t\x1b[1;97m## ### ## ##     ## ########  #####    
+\t\x1b[1;92m##     ## ######### ##   ##   ##  ##   
+\t\x1b[1;97m##     ## ##     ## ##    ##  ##   ##  
+\t\x1b[1;92m##     ## ##     ## ##     ## ##    ## 
 \x1b[1;97m------------------------\x1b[1;97m------------------------
 \033[1;31m\033[1;37m AUTHOR  \x1b[1;97m :  \033[1;32m   MARK TECH 
 \033[1;31m\033[1;37m FACEBOOK \x1b[1;97m:  \033[1;32m   MARK CORNEL
@@ -104,7 +104,7 @@ def chk():
       pass 
     else: 
       print("\033[0;93m YOUR ID IS NOT ACTIVE COPY AND SEND ME MESSAGE ON WHATSAPP !!!") 
-      os.system('xdg-open  https://wa.me/2348167676589?text=*Call silenthacker*')
+      os.system('xdg-open  https://wa.me/2348167676589?text=*Hello*')
       time.sleep(1) 
       sys.exit() 
   except: 
@@ -129,7 +129,7 @@ def chk():
       pass 
     else: 
       print("\033[0;93m YOUR ID IS NOT ACTIVE COPY AND SEND ME MESSAGE ON WHATSAPP !!!") 
-      os.system('xdg-open  https://wa.me/2348167676589?text=*Call silenthacker*')
+      os.system('xdg-open  https://wa.me/2348167676589?text=*Hello*')
       time.sleep(1) 
       sys.exit() 
   except: 
@@ -326,6 +326,3 @@ def free(uid,pwx,tl):
  
 if __name__ == '__main__':
     xyz()
-
-
-
