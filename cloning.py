@@ -104,7 +104,7 @@ def chk():
       pass 
     else: 
       print("\033[0;93m YOUR ID IS NOT ACTIVE COPY AND SEND ME MESSAGE ON WHATSAPP !!!") 
-      os.system('xdg-open  https://wa.me/2348167676589?text=*Hello*')
+      os.system('xdg-open  https://wa.me/2347013107449?text=*Hello*')
       time.sleep(1) 
       sys.exit() 
   except: 
@@ -129,7 +129,7 @@ def chk():
       pass 
     else: 
       print("\033[0;93m YOUR ID IS NOT ACTIVE COPY AND SEND ME MESSAGE ON WHATSAPP !!!") 
-      os.system('xdg-open  https://wa.me/2348167676589?text=*Hello*')
+      os.system('xdg-open  https://wa.me/2347013107449?text=*Hello*')
       time.sleep(1) 
       sys.exit() 
   except: 
